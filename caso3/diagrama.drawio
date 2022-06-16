@@ -1,0 +1,75 @@
+<mxfile host="65bd71144e">
+    <diagram id="12NRIVyC-PHQIaqSaL_B" name="Página-1">
+        <mxGraphModel dx="650" dy="409" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="2" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="inicio" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="270" y="40" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="3" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="ingrese el valor del cheque" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="245" y="160" width="170" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5" target="9">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="720" y="300"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" value="cheque&amp;lt;100" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="290" y="260" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6" target="5">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="180" y="300"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="6">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="380" y="650" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="180" y="560"/>
+                            <mxPoint x="380" y="560"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="6" value="Error" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="370" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.485;entryY=-0.012;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9" target="11">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="720" y="560"/>
+                            <mxPoint x="380" y="560"/>
+                            <mxPoint x="380" y="590"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;droid sans mono&amp;#34; , &amp;#34;monospace&amp;#34; , monospace ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;moneda_de_100&lt;/span&gt;=&lt;span style=&quot;color: #9cdcfe&quot;&gt;valor_del_cheque&lt;/span&gt;&lt;/div&gt;&lt;div&gt;    &lt;span style=&quot;color: #9cdcfe&quot;&gt;billete_de_10000&lt;/span&gt;=(&lt;span style=&quot;color: #9cdcfe&quot;&gt;moneda_de_100&lt;/span&gt;-&lt;span style=&quot;color: #9cdcfe&quot;&gt;moneda_de_100&lt;/span&gt;%&lt;span style=&quot;color: #b5cea8&quot;&gt;10000&lt;/span&gt;)//&lt;span style=&quot;color: #b5cea8&quot;&gt;10000&lt;/span&gt;&lt;/div&gt;&lt;div&gt;    &lt;span style=&quot;color: #9cdcfe&quot;&gt;moneda_de_100&lt;/span&gt;=&lt;span style=&quot;color: #9cdcfe&quot;&gt;moneda_de_100&lt;/span&gt;%&lt;span style=&quot;color: #b5cea8&quot;&gt;10000&lt;/span&gt;&lt;/div&gt;&lt;div&gt;    &lt;span style=&quot;color: #9cdcfe&quot;&gt;billete_de_2000&lt;/span&gt;=(&lt;span style=&quot;color: #9cdcfe&quot;&gt;moneda_de_100&lt;/span&gt;-&lt;span style=&quot;color: #9cdcfe&quot;&gt;moneda_de_100&lt;/span&gt;%&lt;span style=&quot;color: #b5cea8&quot;&gt;2000&lt;/span&gt;)//&lt;span style=&quot;color: #b5cea8&quot;&gt;2000&lt;/span&gt;&lt;/div&gt;&lt;div&gt;    &lt;span style=&quot;color: #9cdcfe&quot;&gt;moneda_de_100&lt;/span&gt;=&lt;span style=&quot;color: #9cdcfe&quot;&gt;moneda_de_100&lt;/span&gt;%&lt;span style=&quot;color: #b5cea8&quot;&gt;2000&lt;/span&gt;&lt;/div&gt;&lt;div&gt;    &lt;span style=&quot;color: #9cdcfe&quot;&gt;moneda_100&lt;/span&gt;=(&lt;span style=&quot;color: #9cdcfe&quot;&gt;moneda_de_100&lt;/span&gt;-&lt;span style=&quot;color: #9cdcfe&quot;&gt;moneda_de_100&lt;/span&gt;%&lt;span style=&quot;color: #b5cea8&quot;&gt;100&lt;/span&gt;)//&lt;span style=&quot;color: #b5cea8&quot;&gt;100&lt;/span&gt;&lt;/div&gt;&lt;div&gt;    &lt;span style=&quot;color: #9cdcfe&quot;&gt;moneda_de_100&lt;/span&gt;=&lt;span style=&quot;color: #9cdcfe&quot;&gt;moneda_de_100&lt;/span&gt;%&lt;span style=&quot;color: #b5cea8&quot;&gt;100&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="470" y="370" width="500" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="11" target="14">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="11" target="14">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;droid sans mono&amp;#34; , &amp;#34;monospace&amp;#34; , monospace ; font-weight: normal ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #ce9178&quot;&gt;cantidad de billetes de 2000: &lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;billete_de_2000&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(206 , 145 , 120)&quot;&gt;cantidad de billetes de 10000: &lt;/span&gt;&lt;span style=&quot;color: rgb(156 , 220 , 254)&quot;&gt;billete_de_10000&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #ce9178&quot;&gt;cantidad de monedas de 100:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;moneda_100&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+                    <mxGeometry x="190" y="650" width="390" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="fin" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="325" y="910" width="120" height="80" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
